@@ -43,7 +43,7 @@
         <span class="error-message">{{
           errorMessage.description && errorMessage.description[0]
         }}</span>
-        <button type="submit" :disabled="formSubmitted">Sign In</button>
+        <button type="submit" :disabled="formSubmitted">Add Task</button>
       </div>
     </form>
   </div>
